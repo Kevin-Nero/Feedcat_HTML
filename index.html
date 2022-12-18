@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feed Cats</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <!-- menubar -->
+        <div id="menubar">
+            <h1>Feed Me</h1>
+            <h2>Choose one or all cats to feed.</h2>
+            <form id="form1">
+                <div class="menu">
+                    <input type="radio"  id="Alpha" name="who" value="alpha">
+                    <label for="Alpha">Alpha</label>
+                    <input type="radio"  id="Bata" name="who" value="bata">
+                    <label for="Bata">Bata</label>
+                    <input type="radio"  id="Gamma" name="who" value="gamma">
+                    <label for="Gamma">Gamma</label>
+                    <input type="radio" id="Delta" name="who" value="delta">
+                    <label for="Delta">Delta</label>
+                    <input type="radio" id="Omega" name="who" value="omage">
+                    <label for="Omega">Omage</label>
+                    <input type="radio"  id="Allcats" name="who" value="allcats">
+                    <label for="Allcats">All cats</label>
+                </div>
+
+                <br>
+                <h2>Specific Breed?</h2>
+
+                <p><input type="text" placeholder="Enter a Breed" id="breed_name"></p>
+
+                <button type="submit" id="feed">Feed!!</button>
+                <hr>
+                <p> </p>
+                <button type="submit">Restart</button>
+                <p></p>
+            </form>
+
+        </div>
+
+        <!-- album -->
+        <div id="album">
+            <div style="background-color: lightblue; border-radius: 5px;">
+                <h1>Cat Album</h1>
+            </div>
+            <br>
+            <div class="frame">
+                <img src="asset/cat_normal/cat1.jpg" class="picture" alt="Alpha" id="cat1">
+                <img src="asset/feed.png" class="feedpic" alt="Feed"  id="feedcat1">
+                <div>
+                    <p class="name">
+                        Alpha
+                    </p>
+                    <p class="satiety" id="satcat1">
+                        Satiety: 0%
+                    </p>
+                    <p class="breed">
+                        ragdoll
+                    </p>
+                </div>
+            </div>
+
+            <div class="frame">
+                <img src="asset/cat_normal/cat2.jpg" class="picture" alt="Bata" id="cat2">
+                <img src="asset/feed.png" class="feedpic" alt="Feed"  id="feedcat2">
+                <div>
+                    <p class="name">
+                        Bata
+                    </p>
+                    <p class="satiety" id="satcat2">
+                        Satiety: 0%
+                    </p>
+                    <p class="breed">
+                        ragdoll
+                    </p>
+                </div>
+            </div>
+
+            <div class="frame">
+                <img src="asset/cat_normal/cat3.jpg" class="picture" alt="Gamma" id="cat3">
+                <img src="asset/feed.png" class="feedpic" alt="Feed"  id="feedcat3">
+                <div>
+                    <p class="name">
+                        Gamma
+                    </p>
+                    <p class="satiety" id="satcat3">
+                        Satiety: 0%
+                    </p>
+                    <p class="breed">
+                        ring
+                    </p>
+                </div>
+            </div>
+
+            <div class="frame">
+                <img src="asset/cat_normal/cat4.jpg" class="picture" alt="Delta" id="cat4">
+                <img src="asset/feed.png" class="feedpic" alt="Feed"  id="feedcat4">
+                <div>
+                    <p class="name">
+                        Delta
+                    </p>
+                    <p class="satiety" id="satcat4">
+                        Satiety: 0%
+                    </p>
+                    <p class="breed">
+                        tardar
+                    </p>
+                </div>
+            </div>
+
+            <div class="frame">
+                <img src="asset/cat_normal/cat5.jpg" class="picture" alt="Omega" id="cat5">
+                <img src="asset/feed.png" class="feedpic" alt="Feed"  id="feedcat5">
+                <div>
+                    <p class="name">
+                        Omega
+                    </p>
+                    <p class="satiety" id="satcat5">
+                        Satiety: 0%
+                    </p>
+                    <p class="breed">
+                        ragdoll
+                    </p>
+                </div>
+            </div>
+
+            <div class="frame">
+                <img src="asset/question.png" class="picture" alt="?" id="cat6">
+                <img src="asset/feed.png" class="feedpic" alt="Feed"  id="feedcat6">
+                <div>
+                    <p class="name" id="popcatname">
+                        ?
+                    </p>
+                    <p class="satiety" id="satcat6">
+                        Satiety: ?%
+                    </p>
+                    <p class="breed" id="popcatbreed">
+                        ?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">© Copyright Kevin All Rights Reserved.</p>
+    </body>
+
+    <!-- script -->
+    <script src="js/script.js"></script>
+</html>

@@ -1,0 +1,85 @@
+body{
+    background-image:url("../asset/background.jfif");
+    font-family: "Helvetica","Arial",sans-serif;
+}
+
+/* button:hover{
+    transition-delay: 50ms;
+    transform: scale(1.5);
+} */
+
+#menubar{
+    width: 25%;
+    float: left;
+    background-color: rgb(201, 146, 74);
+    border-radius: 30px;
+    margin-left: 10vh;
+    margin-top: 3vh;
+    opacity: 0.8;
+
+    text-align: center;
+}
+
+#album {
+    width: 63%;
+    /* height: 100px; */
+    float: right;
+    background-color: mediumslateblue;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right: 10vh;
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+.frame{
+    float: left;
+    width: 30%;
+    background-color: rgb(230, 211, 173);
+    margin: 15px;
+    border-radius:10px;
+    position: relative;
+}
+
+.picture{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    border-radius:5px;
+}
+
+.name{
+    float: left;
+    background-color: palevioletred;
+    margin: 5px;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.satiety{
+    float: left;
+}
+
+.breed{
+    float: right;
+    background-color: darkgoldenrod;
+    margin: 5px;
+    padding: 10px;
+    border-radius:10px;
+    
+}
+
+.feedpic{
+    position: relative;
+    width: 60%;
+    margin-top: -100vh;
+    top: -600vh;
+    opacity: 0.9;
+}
+
+.copyright{
+    text-align: center;
+    margin-left: 100vh;
+    float: right;
+}
